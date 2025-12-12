@@ -74,7 +74,7 @@ type Log = {
 local SetClipboard = setclipboard or toclipboard or set_clipboard
 
 --// Libraries
-local ReGui = loadstring(game:HttpGet('https://github.com/depthso/Dear-ReGui/raw/refs/heads/main/ReGui.lua'), "ReGui")()
+local ReGui = loadstring(game:HttpGet('https://github.com/Exapen/Dear-ReGui/raw/refs/heads/main/ReGui.lua'), "ReGui")()
 
 --// Modules
 local Flags
@@ -559,7 +559,7 @@ function Ui:MakeOptionsTab(InfoSelector)
 			{
 				Text = "Copy Github",
 				Callback = function()
-					self:SetClipboard("https://github.com/depthso/Sigma-Spy")
+					self:SetClipboard("https://github.com/Exapen/Sigma-Spy")
 				end,
 			},
 			{

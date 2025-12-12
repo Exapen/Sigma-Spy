@@ -8,12 +8,12 @@ A complete Remote Spy with an incredible parser that captures incoming and outgo
 ## Loadstring
 ```lua
 --// Sigma Spy @depso
-loadstring(game:HttpGet("https://raw.githubusercontent.com/depthso/Sigma-Spy/refs/heads/main/Main.lua"))()
+loadstring(game:HttpGet("https://raw.githubusercontent.com/Exapen/Sigma-Spy/refs/heads/main/Main.lua"))()
 ```
 
 ## Notices 🔔
-- Sigma Spy will have bugs, please report any bugs by opening an [issue](https://github.com/depthso/Sigma-Spy/issues) on Github
-- If you gave a suggestion, please post it in the [discussions](https://github.com/depthso/Sigma-Spy/discussions)
+- Sigma Spy will have bugs, please report any bugs by opening an [issue](https://github.com/Exapen/Sigma-Spy/issues) on Github
+- If you gave a suggestion, please post it in the [discussions](https://github.com/Exapen/Sigma-Spy/discussions)
 - If you have issues with the executor's comm library (get_comm_channel, create_comm_channel), enable `ForceUseCustomComm` in Sigma Spy/Config.lua which is found in your Executor's workspace folder after running
 - AWP and Zenith is recommended to use as of 11/06/25
 
@@ -100,5 +100,5 @@ Your executor must support these functions in order for it to function:
 
 
 ## Libraries used
-- [ReGui (Depso)](https://github.com/depthso/Dear-ReGui/tree/main) 
-- [Roblox-Parser (Depso)](https://github.com/depthso/Roblox-parser) 
+- [ReGui (Depso)](https://github.com/Exapen/Dear-ReGui/tree/main) 
+- [Roblox-Parser (Depso)](https://github.com/Exapen/Roblox-parser) 
