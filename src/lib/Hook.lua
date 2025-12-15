@@ -69,7 +69,6 @@ local function Merge(Base: table, New: table)
 end
 
 function Hook:Index(Object: Instance, Key: string)
-	setthreadidentity(8)
 	return Object[Key]
 end
 
