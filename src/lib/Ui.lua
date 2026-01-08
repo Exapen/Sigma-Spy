@@ -73,8 +73,6 @@ type Log = {
 --// Compatibility
 local SetClipboard = setclipboard or toclipboard or set_clipboard
 
---// Libraries
-local ReGui = loadstring(game:HttpGet('https://github.com/Exapen/Dear-ReGui/raw/refs/heads/main/ReGui.lua'), "ReGui")()
 
 --// Modules
 local Flags
@@ -105,6 +103,7 @@ function Ui:Init(Data)
 	Files = Modules.Files
 
 	--// ReGui
+	ReGui = loadstring(game:HttpGet(`{Data.Configuration.RepoUrl}/lib/ReGui.lua`), "ReGui")()
 	self:LoadFont()
 	self:LoadReGui()
 	self:CheckScale()
